@@ -10,6 +10,7 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
   </head>
   <body>
     <nav class="navbar navbar-light bg-secondary mb-4">
@@ -90,13 +91,57 @@
                 alt="..."
               />
             </div>
-          </div>
-          
+          </div>  
     </div>
     <hr>
     <div class="alert alert-success text-center text-success" role="alert">
         Thanks for visiting!
       </div>
+      <div class="container-fluid">
+        <h2>Dashboard:</h2>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Team</th>
+                <th scope="col">Allstar</th>
+                <th scope="col">Remove</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table-primary">
+                <th scope="row">Steph</th>
+                <td>Warriors</td>
+                <td>Yes</td>
+                <td><i class="fa-solid fa-trash text-danger"></i></td>
+              </tr>
+              <tr>
+                <th scope="row">Lebron</th>
+                <td>Cavaliers</td>
+                <td>Yes</td>
+                <td><i class="fa-solid fa-trash text-danger"></i></td>
+              </tr>
+              <tr class="table-primary">
+                <th scope="row">Dwayne</th>
+                <td>Heat</td>
+                <td>Yes</td>
+                <td><i class="fa-solid fa-trash text-danger"></i></td>
+              </tr>
+              <tr>
+                <th scope="row">Kobe</th>
+                <td>Lakers</td>
+                <td>Yes<span class="badge bg-warning text-dark">Last</span></td>
+                <td><i class="fa-solid fa-trash text-danger"></i></td>
+              </tr>
+              <tr class="table-primary">
+                <th scope="row">Isaiah</th>
+                <td>Celtics</td>
+                <td>Yes<span class="badge bg-success">First</span></td>
+                <td><i class="fa-solid fa-trash text-danger"></i></td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
 
     <script src="index.js"></script>
     <script
